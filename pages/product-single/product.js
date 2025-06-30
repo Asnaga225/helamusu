@@ -1,0 +1,163 @@
+import React, { useState } from "react";
+import Zoom from 'react-medium-image-zoom'
+import Grid from "@mui/material/Grid";
+import Button from "@mui/material/Button";
+import 'react-medium-image-zoom/dist/styles.css'
+import Link from 'next/link'
+
+const Product = ({ item, addToCart }) => {
+
+
+  const [qty, setQty] = useState(1);
+
+  return (
+
+    <div className="product-details">
+      <div className="row align-items-center">
+        <div className="col-lg-5">
+          <div className="product-single-img">
+            <div className="product-active">
+              <div className="item">
+                <Zoom>
+                  <img
+                    alt="that wanaka tree"
+                    src={item.proImg ? item.proImg : ""}
+                    width="500"
+                  />
+                </Zoom>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-7">
+          <div className="product-single-content">
+            <h5>{item.title}</h5>
+            <h6>${item.price}</h6>
+            <ul className="rating">
+              <li>
+                <i className="fa fa-star" aria-hidden="true"></i>
+              </li>
+              <li>
+                <i className="fa fa-star" aria-hidden="true"></i>
+              </li>
+              <li>
+                <i className="fa fa-star" aria-hidden="true"></i>
+              </li>
+              <li>
+                <i className="fa fa-star" aria-hidden="true"></i>
+              </li>
+              <li>
+                <i className="fa fa-star" aria-hidden="true"></i>
+              </li>
+            </ul>
+            <p>
+              Turmeric from Sri Lanka. The rhizome of the Perennial plant of the Ginger family. Especially known for its strong Aroma and Color. Used as a spice and as a Dyeing ingredient.
+              Consumed the world over for its unmatched benefit to health. it is mainly used as a spice to flavor and color the foods.
+            </p>
+            <div className="product-filter-item color">
+              {/* <div className="color-name">
+                <span>Color :</span>
+                <ul>
+                  <li className="color1">
+                    <input id="a1" type="radio" name="color" value="30" />
+                    <label htmlFor="a1"></label>
+                  </li>
+                  <li className="color2">
+                    <input id="a2" type="radio" name="color" value="30" />
+                    <label htmlFor="a2"></label>
+                  </li>
+                  <li className="color3">
+                    <input id="a3" type="radio" name="color" value="30" />
+                    <label htmlFor="a3"></label>
+                  </li>
+                </ul>
+              </div> */}
+            </div>
+            <div className="product-filter-item color filter-size">
+              <div className="color-name">
+                <span>Weight :</span>
+                <ul>
+                  <li className="color">
+                    <input id="wa1" type="radio" name="size" value="30" />
+                    <label htmlFor="wa1">50g</label>
+                  </li>
+                  <li className="color">
+                    <input id="wa2" type="radio" name="size" value="30" />
+                    <label htmlFor="wa2">100g</label>
+                  </li>
+                  <li className="color">
+                    <input id="wa3" type="radio" name="size" value="30" />
+                    <label htmlFor="wa3">250g</label>
+                  </li>
+                  <li className="color">
+                    <input id="wa4" type="radio" name="size" value="30" />
+                    <label htmlFor="wa4">500g</label>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="pro-single-btn">
+              <Grid className="quantity cart-plus-minus">
+                <Button
+                  className="dec qtybutton"
+                  onClick={() => setQty(qty <= 1 ? 1 : qty - 1)}
+                >
+                  -
+                </Button>
+                <input
+                  value={qty}
+                  onChange={() => setQty(qty)}
+                  type="text"
+                />
+                <Button
+                  className="inc qtybutton"
+                  onClick={() => setQty(qty + 1)}
+                >
+                  +
+                </Button>
+              </Grid>
+              <button
+                className="theme-btn"
+                onClick={() => addToCart(item, qty)}
+              >
+                Add to cart
+              </button>
+            </div>
+            <div className="social-share">
+              <span>Share with : </span>
+              <ul className="socialLinks">
+                <li>
+                  <Link href="/">
+                    <i className="fa fa-facebook"></i>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/">
+                    <i className="fa fa-linkedin"></i>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/">
+                    <i className="fa fa-twitter"></i>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/">
+                    <i className="fa fa-instagram"></i>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/">
+                    <i className="fa fa-youtube-play"></i>
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Product;

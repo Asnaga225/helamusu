@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "slug":"Turmeric-Powder",
+    "proImg": "/images/product/1.png",
+    "offer": "-28%",
+    "title": "Turmeric Powder ",
+    "price": "85.00",
+    "delPrice": "98.00",
+    "link": "/product-single",
+    "size": "small",
+    "color": "000",
+    "brand": "forest",
+    "stock": "In Stock"
+  },
+  {
+    "id": 2,
+    "slug":"Black-Pepper-Seeds",
+    "proImg": "/images/product/2.png",
+    "offer": "-25%",
+    "title": "Black Pepper Seeds",
+    "price": "100.00",
+    "delPrice": "158.00",
+    "link": "/product-single",
+    "size": "small",
+    "color": "000",
+    "brand": "flower",
+    "stock": "In Stock"
+  },
+  {
+    "id": 3,
+    "slug":"Black-Pepper-Powder",
+    "proImg": "/images/product/3.png",
+    "offer": "New",
+    "title": "Black Pepper Powder",
+    "price": "75.00",
+    "delPrice": "88.00",
+    "link": "/product-single",
+    "size": "small",
+    "color": "000",
+    "brand": "forest",
+    "stock": "In Stock"
+  },
+  {
+    "id": 4,
+    "slug":"Ceylon-Whole-Cloves",
+    "proImg": "/images/product/4.png",
+    "offer": "-20%",
+    "title": "Ceylon Whole Cloves",
+    "price": "85.00",
+    "delPrice": "98.00",
+    "link": "/product-single",
+    "size": "small",
+    "color": "000",
+    "brand": "flower",
+    "stock": "In Stock"
+  }
+   
+]
