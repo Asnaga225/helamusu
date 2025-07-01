@@ -53,8 +53,8 @@ const Footer = (props) => {
                                     <ul>
                                         {/* <li><i className="fi flaticon-pin"></i>7 Green Lake Street Crawfordsville, IN 47933
                                         </li> */}
-                                        <li><i className="fi flaticon-call"></i>+1 800 123 456 789</li>
-                                        <li><i className="fi flaticon-envelope"></i>helamusu@gmail.com</li>
+                                        <li><i className="fi flaticon-call"></i>0714825464</li>
+                                        <li><i className="fi flaticon-envelope"></i>helamusuproducts@gmail.com</li>
                                     </ul>
                                 </div>
                             </div>

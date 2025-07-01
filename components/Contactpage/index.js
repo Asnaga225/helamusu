@@ -26,7 +26,7 @@ const Contactpage = () => {
                                         <i className="ti-mobile"></i>
                                     </div>
                                     <h5>Phone</h5>
-                                    <p>0-123-456-7890</p>
+                                    <p>0714825464</p>
                                 </li>
                                 <li>
                                     <div className="icon">
@@ -36,7 +36,7 @@ const Contactpage = () => {
 
                                     </div>
                                     <h5>Whatsapp</h5>
-                                    <p>0-123-456-7890</p>
+                                    <p>0742888931</p>
                                 </li>
                                 <li>
                                     <div className="icon">
