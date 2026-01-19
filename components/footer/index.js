@@ -16,10 +16,9 @@ const Footer = (props) => {
                         <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
                             <div className="widget about-widget">
                                 <div className="logo widget-title">
-                                    <Link onClick={ClickHandler} href="/"><img src='/images/logo.png' alt="ft-logo" /> hela musu</Link>
+                                    <Link onClick={ClickHandler} href="/"><img src='/images/logo.png' alt="ft-logo" /> Hela Musu</Link>
                                 </div>
-                                <p>Management consulting includes a broad range of activities, and the many firms and
-                                    their members often define these practices.</p>
+                                <p> test</p>
                                 <ul>
                                     <li>
                                         <Link onClick={ClickHandler} href="/">
@@ -28,17 +27,13 @@ const Footer = (props) => {
                                     </li>
                                     <li>
                                         <Link onClick={ClickHandler} href="/">
-                                            <i className="ti-twitter-alt"></i>
+                                        <i class="fa fa-whatsapp"></i>
                                         </Link>
                                     </li>
+                                    
                                     <li>
                                         <Link onClick={ClickHandler} href="/">
-                                            <i className="ti-instagram"></i>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link onClick={ClickHandler} href="/">
-                                            <i className="ti-google"></i>
+                                        <i class="fa fa-envelope"></i>
                                         </Link>
                                     </li>
                                 </ul>
@@ -72,7 +67,7 @@ const Footer = (props) => {
                                 </ul>
                             </div>
                         </div> */}
-                        <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
+                        {/* <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
                             <div className="widget newsletter-widget">
                                 <div className="widget-title">
                                     <h3>Newsletter</h3>
@@ -87,7 +82,7 @@ const Footer = (props) => {
                                     </div>
                                 </form>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
@@ -101,12 +96,12 @@ const Footer = (props) => {
                     </div>
                 </div>
             </div>
-            <div className="footer-shape1">
+            {/* <div className="footer-shape1">
                 <i className="fi flaticon-honeycomb"></i>
             </div>
             <div className="footer-shape2">
                 <i className="fi flaticon-honey-1"></i>
-            </div>
+            </div> */}
         </footer>
     )
 }

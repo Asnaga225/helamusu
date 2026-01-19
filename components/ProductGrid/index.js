@@ -45,9 +45,9 @@ const ProductGrid = ({ products, addToCartProduct, addToWishListProduct }) => {
                       </button>
                     </li>
                   </ul>
-                  <div className="offer-thumb">
+                  {/* <div className="offer-thumb">
                     <span>{product.offer}</span>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="product-content">
                   <h3>
@@ -55,10 +55,10 @@ const ProductGrid = ({ products, addToCartProduct, addToWishListProduct }) => {
                   </h3>
                   <div className="product-btm">
                     <div className="product-price">
-                      <ul>
+                      {/* <ul>
                         <li>${product.price}</li>
                         <li>${product.delPrice}</li>
-                      </ul>
+                      </ul> */}
                     </div>
                     <div className="product-ratting">
                       <ul>

@@ -32,7 +32,7 @@ const Product = ({ item, addToCart }) => {
         <div className="col-lg-7">
           <div className="product-single-content">
             <h5>{item.title}</h5>
-            <h6>${item.price}</h6>
+            {/* <h6>${item.price}</h6> */}
             <ul className="rating">
               <li>
                 <i className="fa fa-star" aria-hidden="true"></i>
@@ -50,9 +50,8 @@ const Product = ({ item, addToCart }) => {
                 <i className="fa fa-star" aria-hidden="true"></i>
               </li>
             </ul>
-            <p>
-              Turmeric from Sri Lanka. The rhizome of the Perennial plant of the Ginger family. Especially known for its strong Aroma and Color. Used as a spice and as a Dyeing ingredient.
-              Consumed the world over for its unmatched benefit to health. it is mainly used as a spice to flavor and color the foods.
+            <p>${item.price}
+              
             </p>
             <div className="product-filter-item color">
               {/* <div className="color-name">
@@ -85,26 +84,26 @@ const Product = ({ item, addToCart }) => {
                     <input id="wa2" type="radio" name="size" value="30" />
                     <label htmlFor="wa2">100g</label>
                   </li>
-                  <li className="color">
+                  {/* <li className="color">
                     <input id="wa3" type="radio" name="size" value="30" />
                     <label htmlFor="wa3">250g</label>
                   </li>
                   <li className="color">
                     <input id="wa4" type="radio" name="size" value="30" />
                     <label htmlFor="wa4">500g</label>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
             <div className="pro-single-btn">
               <Grid className="quantity cart-plus-minus">
-                <Button
+                {/* <Button
                   className="dec qtybutton"
                   onClick={() => setQty(qty <= 1 ? 1 : qty - 1)}
                 >
                   -
-                </Button>
-                <input
+                </Button> */}
+                {/* <input
                   value={qty}
                   onChange={() => setQty(qty)}
                   type="text"
@@ -114,14 +113,14 @@ const Product = ({ item, addToCart }) => {
                   onClick={() => setQty(qty + 1)}
                 >
                   +
-                </Button>
+                </Button> */}
               </Grid>
-              <button
+              {/* <button
                 className="theme-btn"
                 onClick={() => addToCart(item, qty)}
               >
                 Add to cart
-              </button>
+              </button> */}
             </div>
             <div className="social-share">
               <span>Share with : </span>

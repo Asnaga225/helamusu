@@ -54,7 +54,7 @@ class Header extends Component {
               <div className="col-lg-3">
                 <div className="navbar-header">
                   <Link onClick={ClickHandler} href="/home" className="navbar-brand">
-                    <img src='/images/logo.png' alt="icon" /> 
+                    <img className="main" src='/images/logo.png' alt="icon" /> 
                     Hela Musu
                   </Link>
                 </div>
@@ -166,12 +166,12 @@ class Header extends Component {
               <div className="col-lg-2">
                 <div className="header-right d-flex">
                   <div className="header-profile-form-wrapper">
-                    <button
+                    {/* <button
                       onClick={this.profileHandler}
                       className="profile-toggle-btn"
                     >
                       <i className={`${isprofileShow ? 'fi ti-close' : 'fi flaticon-user'}`}></i>
-                    </button>
+                    </button> */}
                     <div
                       className={`header-profile-content ${isprofileShow ? "header-profile-content-toggle" : ""
                         }`}
@@ -196,14 +196,14 @@ class Header extends Component {
                     </div>
                   </div>
                   <div className="mini-cart">
-                    <button
+                    {/* <button
                       onClick={this.cartHandler}
                       className="cart-toggle-btn"
                     >
                       {" "}
                       <i className="fi flaticon-bag"></i>{" "}
                       <span className="cart-count">{carts.length}</span>
-                    </button>
+                    </button> */}
                     <div
                       className={`mini-cart-content ${isCartShow ? "mini-cart-content-toggle" : ""
                         }`}
@@ -262,13 +262,13 @@ class Header extends Component {
                     </div>
                   </div>
                   <div className="header-wishlist-form-wrapper">
-                    <button
+                    {/* <button
                       onClick={this.wishlistHandler}
                       className="wishlist-toggle-btn"
                     >
                       <i className="fi flaticon-heart"></i>{" "}
                       <span className="cart-count">{wishs.length}</span>{" "}
-                    </button>
+                    </button> */}
                     <div
                       className={`mini-wislist-content ${isWishlistShow ? "mini-cart-content-toggle" : ""
                         }`}

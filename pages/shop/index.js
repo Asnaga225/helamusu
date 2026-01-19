@@ -2,7 +2,7 @@ import React, { Fragment, useState } from 'react';
 import PageTitle from '../../components/pagetitle';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/footer';
-import FilterSidebar from "../../components/FilterSidebar";
+// import FilterSidebar from "../../components/FilterSidebar";
 import FilterAllProduct from "../../components/FilterAllProduct";
 import { connect } from "react-redux";
 import api from "../../api";
@@ -62,11 +62,11 @@ const ShopPage = ({ addToCart, addToWishList }) => {
         <div className="shop-section">
           <div className="container">
             <div className="row">
-              <FilterSidebar
+              {/* <FilterSidebar
                 filter={filter}
                 priceChangeHandler={priceChangeHandler}
                 changeHandler={changeHandler}
-              />
+              /> */}
               <FilterAllProduct
                 addToCartProduct={addToCartProduct}
                 addToWishListProduct={addToWishListProduct}

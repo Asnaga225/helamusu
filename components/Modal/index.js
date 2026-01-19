@@ -39,7 +39,7 @@ const DefaultModal = ({
               <div className="col-lg-7">
                 <div className="product-single-content">
                   <h5>{product && product.title}</h5>
-                  <h6>{product && product.price} USD</h6>
+                  {/* <h6>{product && product.price} USD</h6> */}
                   <ul className="rating">
                     <li>
                       <i className="fa fa-star" aria-hidden="true"></i>
@@ -96,14 +96,14 @@ const DefaultModal = ({
                           <input id="w2" type="radio" name="size" value="30" />
                           <label htmlFor="w2">100g</label>
                         </li>
-                        <li className="color">
+                        {/* <li className="color">
                           <input id="w3" type="radio" name="size" value="30" />
                           <label htmlFor="w3">250g</label>
                         </li>
                         <li className="color">
                           <input id="w4" type="radio" name="size" value="30" />
                           <label htmlFor="w4">500g</label>
-                        </li>
+                        </li> */}
                       </ul>
                     </div>
                   </div>
@@ -127,12 +127,12 @@ const DefaultModal = ({
                         +
                       </Button>
                     </Grid>
-                    <Button
+                    {/* <Button
                       onClick={() => addToCartProduct(product, qty)}
                       className="theme-btn"
                     >
                       Add to cart
-                    </Button>
+                    </Button> */}
                   </div>
                   <div className="social-share">
                     <span>Share with : </span>

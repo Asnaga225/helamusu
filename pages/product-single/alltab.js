@@ -27,7 +27,7 @@ const ProductTabs = (props) => {
                                     Description
                                 </NavLink>
                             </NavItem>
-                            <NavItem>
+                            {/* <NavItem>
                                 <NavLink
                                     className={classnames({ active: activeTab === '2' })}
                                     onClick={() => { toggle('2'); }}
@@ -44,7 +44,7 @@ const ProductTabs = (props) => {
 
                                     Review
                                 </NavLink>
-                            </NavItem>
+                            </NavItem> */}
                         </Nav>
                         <TabContent activeTab={activeTab}>
                             <TabPane tabId="1">
