@@ -32,119 +32,119 @@ const menus = [
         link: '/shop',
     },
 
-    {
-        id: 4,
-        title: 'Pages',
-        link: '/',
-        submenu: [
-            {
-                id: 41,
-                title: 'Cart',
-                link: '/cart'
-            },
-            {
-                id: 45,
-                title: 'Wishlist',
-                link: '/wishlist'
-            },
-            {
-                id: 46,
-                title: 'Checkout',
-                link: '/checkout'
-            },
+    // {
+    //     id: 4,
+    //     title: 'Pages',
+    //     link: '/',
+    //     submenu: [
+    //         {
+    //             id: 41,
+    //             title: 'Cart',
+    //             link: '/cart'
+    //         },
+    //         {
+    //             id: 45,
+    //             title: 'Wishlist',
+    //             link: '/wishlist'
+    //         },
+    //         {
+    //             id: 46,
+    //             title: 'Checkout',
+    //             link: '/checkout'
+    //         },
     
-            {
-                id: 49,
-                title: 'Error 404',
-                link: '/404'
-            },
-            {
-                id: 491,
-                title: 'Login',
-                link: '/login'
-            },
-            {
-                id: 492,
-                title: 'Register',
-                link: '/register'
-            },
+    //         {
+    //             id: 49,
+    //             title: 'Error 404',
+    //             link: '/404'
+    //         },
+    //         {
+    //             id: 491,
+    //             title: 'Login',
+    //             link: '/login'
+    //         },
+    //         {
+    //             id: 492,
+    //             title: 'Register',
+    //             link: '/register'
+    //         },
             
-        ]
-    },
-    {
-        id: 6,
-        title: 'Product',
-        link: '/',
-        submenu: [
-            {
-                id: 41,
-                title: 'Product',
-                link: '/shop'
-            },
-            {
-                id: 45,
-                title: 'Product Single',
-                link: '/product-single/Black-Pepper-Seeds'
-            },
+    //     ]
+    // },
+    // {
+    //     id: 6,
+    //     title: 'Product',
+    //     link: '/',
+    //     submenu: [
+    //         {
+    //             id: 41,
+    //             title: 'Product',
+    //             link: '/shop'
+    //         },
+    //         {
+    //             id: 45,
+    //             title: 'Product Single',
+    //             link: '/product-single/Black-Pepper-Seeds'
+    //         },
             
-        ]
-    },
-    {
-        id: 7,
-        title: 'Project',
-        link: '/',
-        submenu: [
-            {
-                id: 71,
-                title: 'Project',
-                link: '/project'
-            },
-            {
-                id: 75,
-                title: 'Project Single',
-                link: '/project-single'
-            },
+    //     ]
+    // },
+    // {
+    //     id: 7,
+    //     title: 'Project',
+    //     link: '/',
+    //     submenu: [
+    //         {
+    //             id: 71,
+    //             title: 'Project',
+    //             link: '/project'
+    //         },
+    //         {
+    //             id: 75,
+    //             title: 'Project Single',
+    //             link: '/project-single'
+    //         },
             
-        ]
-    },
+    //     ]
+    // },
 
-    {
-        id: 5,
-        title: 'Blog',
-        link: '/blog',
-        submenu: [
-            {
-                id: 51,
-                title: 'Blog',
-                link: '/blog'
-            },
-            {
-                id: 52,
-                title: 'Blog Left sidebar',
-                link: '/blog-left-sidebar'
-            },
-            {
-                id: 53,
-                title: 'Blog full width',
-                link: '/blog-fullwidth'
-            },
-            {
-                id: 54,
-                title: 'Blog single',
-                link: '/blog-single/traffic'
-            },
-            {
-                id: 55,
-                title: 'Blog single Left sidebar',
-                link: '/blog-single-left-sidebar/Automatically'
-            },
-            {
-                id: 56,
-                title: 'Blog single Left sidebar',
-                link: '/blog-single-fullwidth/Rules'
-            },
-        ]
-    },
+    // {
+    //     id: 5,
+    //     title: 'Blog',
+    //     link: '/blog',
+    //     submenu: [
+    //         {
+    //             id: 51,
+    //             title: 'Blog',
+    //             link: '/blog'
+    //         },
+    //         {
+    //             id: 52,
+    //             title: 'Blog Left sidebar',
+    //             link: '/blog-left-sidebar'
+    //         },
+    //         {
+    //             id: 53,
+    //             title: 'Blog full width',
+    //             link: '/blog-fullwidth'
+    //         },
+    //         {
+    //             id: 54,
+    //             title: 'Blog single',
+    //             link: '/blog-single/traffic'
+    //         },
+    //         {
+    //             id: 55,
+    //             title: 'Blog single Left sidebar',
+    //             link: '/blog-single-left-sidebar/Automatically'
+    //         },
+    //         {
+    //             id: 56,
+    //             title: 'Blog single Left sidebar',
+    //             link: '/blog-single-fullwidth/Rules'
+    //         },
+    //     ]
+    // },
     {
         id: 88,
         title: 'Contact',
