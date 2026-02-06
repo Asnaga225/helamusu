@@ -71,8 +71,8 @@ const ForgotPassword = (props) => {
                             </Grid>
                             <Grid className="loginWithSocial">
                                 <Button className="facebook"><i className="fa fa-facebook"></i></Button>
-                                <Button className="twitter"><i className="fa fa-twitter"></i></Button>
-                                <Button className="linkedin"><i className="fa fa-linkedin"></i></Button>
+                                <Button className="twitter"><i className="fa fa-whatsapp"></i></Button>
+                                <Button className="linkedin"><i className="fa fa-envilope"></i></Button>
                             </Grid>
                             <p className="noteHelp">Already have an account? <Link href="/login">Return to Sign In</Link>
                             </p>

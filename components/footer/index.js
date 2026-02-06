@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 
 
+
 const Footer = (props) => {
 
     const ClickHandler = () => {
@@ -18,7 +19,7 @@ const Footer = (props) => {
                                 <div className="logo widget-title">
                                     <Link onClick={ClickHandler} href="/"><img src='/images/logo.png' alt="ft-logo" /> Hela Musu</Link>
                                 </div>
-                                <p> test</p>
+                                <p> Best spices export company in Sri Lanka by providing high quality, safe and healthy spices free from artificial flavors.</p>
                                 <ul>
                                     <li>
                                         <Link onClick={ClickHandler} href="/">
@@ -48,7 +49,8 @@ const Footer = (props) => {
                                     <ul>
                                         {/* <li><i className="fi flaticon-pin"></i>7 Green Lake Street Crawfordsville, IN 47933
                                         </li> */}
-                                        <li><i className="fi flaticon-call"></i>0714825464</li>
+                                        <li><i className="fi flaticon-call"></i>+94714825464</li>
+                                        <li><i className="fa fa-whatsapp"></i>+94742888931</li>
                                         <li><i className="fi flaticon-envelope"></i>helamusuproducts@gmail.com</li>
                                     </ul>
                                 </div>

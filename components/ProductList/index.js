@@ -30,7 +30,7 @@ const ProductList = ({ products, addToCartProduct, addToWishListProduct }) => {
                 <div className="product-item">
                   <div className="product-img">
                     <img src={product.proImg} alt="" />
-                    <ul>
+                    {/* <ul>
                       <li>
                         <button
                           data-bs-toggle="tooltip"
@@ -61,10 +61,10 @@ const ProductList = ({ products, addToCartProduct, addToWishListProduct }) => {
                           <i className="fi flaticon-like"></i>
                         </button>
                       </li>
-                    </ul>
-                    <div className="offer-thumb">
+                    </ul> */}
+                    {/* <div className="offer-thumb">
                       <span>{product.offer}</span>
-                    </div>
+                    </div> */}
                   </div>
                   <div className="product-content">
                     <h3>
@@ -72,10 +72,10 @@ const ProductList = ({ products, addToCartProduct, addToWishListProduct }) => {
                     </h3>
                     <div className="product-btm">
                       <div className="product-price">
-                        <ul>
+                        {/* <ul>
                           <li>${product.price}</li>
                           <li>${product.delPrice}</li>
-                        </ul>
+                        </ul> */}
                       </div>
                       <div className="product-ratting">
                         <ul>

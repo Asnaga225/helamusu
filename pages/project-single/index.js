@@ -19,7 +19,7 @@ const StoryPage = (props) => {
                                 <div className="img-holder">
                                     <img src='/images/project-single/img-1.jpg' alt="" />
                                 </div>
-                                <h2>FRESH ORIGINAL HONEY</h2>
+                                <h2>Helamusu</h2>
                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have
                                     suffered alteration in some form, by injected humour, or randomised words which don't
                                     look even slightly believable. If you are going to use a passage of Lorem Ipsum, you
@@ -47,13 +47,13 @@ const StoryPage = (props) => {
                         <div className="col col-lg-4 col-12">
                             <div className="service-sidebar">
                                 <div className="widget project-info-widget">
-                                    <h3>Project Information</h3>
+                                    <h3>Product Information</h3>
                                     <ul>
-                                        <li><span>Project Title: </span> FRESH ORIGINAL HONEY </li>
+                                        <li><span>Project Title: </span> Helamusu </li>
                                         <li><span>Client: </span> Robert Symon</li>
                                         <li><span>Date: </span> 20 January 2022</li>
                                         <li><span>Project Value:</span> $5500</li>
-                                        <li><span>Category: </span> Honey </li>
+                                        <li><span>Category: </span> Pepper </li>
                                         <li><span>Status : </span> Completed </li>
                                         <li><span>live link : </span> <Link href="/project-single">http://demo.com</Link> </li>
                                     </ul>

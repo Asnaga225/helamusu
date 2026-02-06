@@ -66,17 +66,17 @@ class Header extends Component {
                 >
                   <ul className="nav navbar-nav me-auto mb-2 mb-lg-0">
                     <li>
-                      <Link onClick={ClickHandler} className="active" href="/">
+                      <Link onClick={ClickHandler} className=" " href="/">
                         Home
                       </Link>
-                      <ul className="sub-menu">
+                      {/* <ul className="sub-menu">
                         <li>
                           <Link onClick={ClickHandler} href="/home">Home Style 1</Link>
                         </li>
                         <li>
                           <Link onClick={ClickHandler} href="/home2">Home Style 2</Link>
                         </li>
-                      </ul>
+                      </ul> */}
                     </li>
                     <li>
                       <Link onClick={ClickHandler} href="/about">About</Link>

@@ -216,21 +216,21 @@
             }
             
 
-            &::before{
-                position: absolute;
-                left: 0;
-                top: 0;
-                width: 100%;
-                height: 100%;
-                content: "";
-                transform: translateY(-110%);
-                background: linear-gradient( 0deg, rgb(161,54,2) 0%, rgb(254,185,52) 100%);
-                background: -moz-linear-gradient( 0deg, rgb(161,54,2) 0%, rgb(254,185,52) 100%);
-                background: -webkit-linear-gradient( 0deg, rgb(161,54,2) 0%, rgb(254,185,52) 100%);
-                background: -ms-linear-gradient( 0deg, rgb(161,54,2) 0%, rgb(254,185,52) 100%);
-                transition: all .5s;
-                opacity: .92;
-            }
+            // &::before{
+            //     position: absolute;
+            //     left: 0;
+            //     top: 0;
+            //     width: 100%;
+            //     height: 100%;
+            //     content: "";
+            //     transform: translateY(-110%);
+            //     background: linear-gradient( 0deg, rgb(161,54,2) 0%, rgb(254,185,52) 100%);
+            //     background: -moz-linear-gradient( 0deg, rgb(161,54,2) 0%, rgb(254,185,52) 100%);
+            //     background: -webkit-linear-gradient( 0deg, rgb(161,54,2) 0%, rgb(254,185,52) 100%);
+            //     background: -ms-linear-gradient( 0deg, rgb(161,54,2) 0%, rgb(254,185,52) 100%);
+            //     transition: all .5s;
+            //     opacity: .92;
+            // }
 
             ul{
                 display: flex;
@@ -312,26 +312,26 @@
         }
 
         &:hover{
-            .product-img{
-                &:before{
-                    transform: translateY(0%);
-                }
+            // .product-img{
+            //     &:before{
+            //         transform: translateY(0%);
+            //     }
 
-                ul{
-                    opacity: 1;
-                    visibility: visible;
-                    top: 50%;
-                }
+            //     ul{
+            //         opacity: 1;
+            //         visibility: visible;
+            //         top: 50%;
+            //     }
 
-                .offer-thumb{
-                    color: $heading-color;
+            //     .offer-thumb{
+            //         color: $heading-color;
 
-                    &:before{
-                        opacity: 0;
-                    }
-                }
+            //         &:before{
+            //             opacity: 0;
+            //         }
+            //     }
 
-            }
+            // }
         }
 
         .product-content{

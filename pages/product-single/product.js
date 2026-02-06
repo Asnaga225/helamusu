@@ -7,32 +7,74 @@ import Link from 'next/link'
 
 const Product = ({ item, addToCart }) => {
 
-
   const [qty, setQty] = useState(1);
+  
+//  
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const images = item.images && item.images.length > 0 ? item.images : [item.proImg];
+
+  const nextImage = () => {
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+  };
+
+  const prevImage = () => {
+    setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
+  };
+  // ------------------------------------------
 
   return (
 
     <div className="product-details">
       <div className="row align-items-center">
         <div className="col-lg-5">
-          <div className="product-single-img">
+          <div className="product-single-img" style={{ position: 'relative' }}> {/* Style එකක් එකතු කළා button position කරන්න */}
             <div className="product-active">
+              
               <div className="item">
                 <Zoom>
                   <img
-                    alt="that wanaka tree"
-                    src={item.proImg ? item.proImg : ""}
+                    alt={item.title}
+                    src={images[currentIndex]} // Current index එකේ image එක පෙන්වයි
                     width="500"
+                    style={{ width: '100%', display: 'block' }}
                   />
                 </Zoom>
               </div>
+
+              {/* --- < > Buttons   --- */}
+              {images.length > 1 && (
+                <>
+                  <button 
+                    onClick={prevImage}
+                    style={{
+                      position: 'absolute', top: '50%', left: '0', transform: 'translateY(-50%)',
+                      background: 'rgba(0,0,0,0.2)', color: 'white', border: 'none', 
+                      padding: '10px 15px', cursor: 'pointer', zIndex: '10', fontSize: '20px'
+                    }}
+                  >
+                    ❮
+                  </button>
+                  <button 
+                    onClick={nextImage}
+                    style={{
+                      position: 'absolute', top: '50%', right: '0', transform: 'translateY(-50%)',
+                      background: 'rgba(0,0,0,0.2)', color: 'white', border: 'none', 
+                      padding: '10px 15px', cursor: 'pointer', zIndex: '10', fontSize: '20px'
+                    }}
+                  >
+                    ❯
+                  </button>
+                </>
+              )}
+              {/* ---------------------------- */}
+
             </div>
           </div>
         </div>
         <div className="col-lg-7">
           <div className="product-single-content">
             <h5>{item.title}</h5>
-            {/* <h6>${item.price}</h6> */}
+            <p>{item.price}</p>
             <ul className="rating">
               <li>
                 <i className="fa fa-star" aria-hidden="true"></i>
@@ -50,9 +92,7 @@ const Product = ({ item, addToCart }) => {
                 <i className="fa fa-star" aria-hidden="true"></i>
               </li>
             </ul>
-            <p>${item.price}
-              
-            </p>
+            {/* <p>${item.price}</p> */}
             <div className="product-filter-item color">
               {/* <div className="color-name">
                 <span>Color :</span>
@@ -132,24 +172,24 @@ const Product = ({ item, addToCart }) => {
                 </li>
                 <li>
                   <Link href="/">
-                    <i className="fa fa-linkedin"></i>
+                    <i className="fa fa-whatsapp"></i>
                   </Link>
                 </li>
                 <li>
                   <Link href="/">
-                    <i className="fa fa-twitter"></i>
+                    <i className="fa fa-envelope"></i>
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link href="/">
                     <i className="fa fa-instagram"></i>
                   </Link>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <Link href="/">
                     <i className="fa fa-youtube-play"></i>
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

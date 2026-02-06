@@ -144,10 +144,10 @@ const DefaultModal = ({
                       </li>
                       <li>
                         <Link href="/">
-                          <i className="fa fa-linkedin"></i>
+                          <i className="fa fa-envelope"></i>
                         </Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link href="/">
                           <i className="fa fa-twitter"></i>
                         </Link>
@@ -156,10 +156,10 @@ const DefaultModal = ({
                         <Link href="/">
                           <i className="fa fa-instagram"></i>
                         </Link>
-                      </li>
+                      </li> */}
                       <li>
                         <Link href="/">
-                          <i className="fa fa-youtube-play"></i>
+                          <i className="fa fa-whatsapp"></i>
                         </Link>
                       </li>
                     </ul>

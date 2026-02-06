@@ -34,7 +34,7 @@ const Product = ({ products, addToCartProduct, addToWishListProduct }) => {
                 safely. Processing and packaging are then done using highly hygienic methods. We do not use any
                 flavorings preservatives or chemicals. 
                 <br />
-                <h5> <b>HACCP &nbsp;&nbsp; ISO22000</b>
+                <h5> <b>HACCP &nbsp;&nbsp; ISO 22000</b>
                 </h5>
               </p>
             </div>

@@ -12,7 +12,7 @@ const Contactpage = () => {
                             <h2>Our Contacts</h2>
                         </div>
                         <div className="contact-details">
-                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classNameical Latin literature from 45 BC, making it over 2000 years old. </p>
+                            {/* <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classNameical Latin literature from 45 BC, making it over 2000 years old. </p> */}
                             <ul>
                                 {/* <li>
                                     <div className="icon">
@@ -26,7 +26,7 @@ const Contactpage = () => {
                                         <i className="ti-mobile"></i>
                                     </div>
                                     <h5>Phone</h5>
-                                    <p>0714825464</p>
+                                    <p>+94714825464</p>
                                 </li>
                                 <li>
                                     <div className="icon">
@@ -36,7 +36,7 @@ const Contactpage = () => {
 
                                     </div>
                                     <h5>Whatsapp</h5>
-                                    <p>0742888931</p>
+                                    <p>+94742888931</p>
                                 </li>
                                 <li>
                                     <div className="icon">
@@ -48,7 +48,7 @@ const Contactpage = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="col col-lg-6 col-12">
+                    {/* <div className="col col-lg-6 col-12">
                         <div className="contact-form-area">
                             <div className="section-title-s3 section-title-s5">
                                 <h2>Quick Contact Form</h2>
@@ -57,7 +57,7 @@ const Contactpage = () => {
                                 <ContactForm/>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 {/* <div className="row">
                     <div className="col col-xs-12">
