@@ -86,7 +86,7 @@ class Header extends Component {
                     </li>
                     <li className="menu-item-has-children">
                       {/* <Link onClick={ClickHandler} href="/cart">Pages</Link> */}
-                      <ul className="sub-menu">
+                      {/* <ul className="sub-menu">
                         <li>
                           <Link onClick={ClickHandler} href="/cart">Cart</Link>
                         </li>
@@ -112,16 +112,9 @@ class Header extends Component {
                         </li>
                         <li className="menu-item-has-children">
                           <Link onClick={ClickHandler} href="/">Project</Link>
-                          <ul className="sub-menu">
-                            <li>
-                              <Link onClick={ClickHandler} href="/project">Project</Link>
-                            </li>
-                            <li>
-                              <Link onClick={ClickHandler} href="/project-single">Project Single</Link>
-                            </li>
-                          </ul>
+                           
                         </li>
-                      </ul>
+                      </ul> */}
                     </li>
                     <li>
                       {/* <Link onClick={ClickHandler} href="/">Blog</Link> */}
