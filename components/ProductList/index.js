@@ -97,7 +97,7 @@ const ProductList = ({ products, addToCartProduct, addToWishListProduct }) => {
                         </ul>
                       </div>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam consequuntur laudantium quod ratione nulla modi? Repudiandae quidem dicta quia eveniet dignissimos.</p>
+                    <p>{product.price}</p>
                   </div>
                 </div>
               </div>

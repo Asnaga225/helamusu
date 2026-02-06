@@ -58,12 +58,7 @@ const DefaultModal = ({
                     </li>
                   </ul>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nunc quis ultrices lectus lobortis, dolor et tempus porta,
-                    leo mi efficitur ante, in varius felis sem ut mauris. Proin
-                    volutpat lorem inorci sed vestibulum tempus. Lorem ipsum
-                    dolor sit amet, consectetur adipiscing elit. Aliquam
-                    hendrerit.
+                    {product && product.price}
                   </p>
                   <div className="product-filter-item color">
                     {/* <div className="color-name">
